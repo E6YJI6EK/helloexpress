@@ -71,6 +71,7 @@ window.addEventListener('DOMContentLoaded', () => {
         function frame() {
             if (counter == 10) {
                 clearInterval(id);
+                confirm.style.display = 'none';
             } else {
                 counter--;
                 confirm.style.opacity = '.' + counter;
